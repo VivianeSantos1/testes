@@ -3,119 +3,107 @@
   <title>GIT</title>
   <link href="style.css" rel="stylesheet">
 </head>
-<body id="um">
-<div id="dois">
-  - consultar versão
-</div>
-<div id="tres">
-   
-  git --version<br>
-   
-</div>
-<div id="dois">
-- configurar GIT
-</div>
-<div id="tres">
-   
-  git config --global user.name "wtresschools-test" <br>
-  git config --global user.email "test@wtresschools.com" <br>
-   
-</div>
-<div id="dois">
-  - iniciar um novo repositório
-</div>
-<div id="tres">
-   
-  git init<br>
-   
-</div>
-<div id="dois">
-  - verifica se o arquivo já está no repositório
-</div>
-<div id="tres">
-   
-  GIT STATUS<br>
-   
-</div>
-<div id="quatro">
-  <br> Nota: <br> <br>
-  TRACKED --> é quando o arquivo está no github<br>
-  UNTRACKED --> é quando o arquivo está apenas localmente no seu dispositivo<br><br>
-</div>
-<div id="dois">
-  - adiciona ao ambiente de testes e preparação (STAGE)
-</div>
-<div id="tres">
-  
-  git add <br>
-  
-</div>
-<div id="dois">
-  - adicionando vários arquivos ao ambiente de teste
-</div>
-<div id="tres">
-  
-  git add --all ou git add -a <br>
-  
-</div>
-<div id="dois">
-  - o commit serve como um save point, ou seja a versão<br>
-  finalmente adicionada ao repositório, o commit deve<br>
-  ser acompanhado de uma mensagem descritiva<br>
-</div>
-<div id="tres">
-   
-  git commit -m "First release of Hello World!"<br>
-   
-</div>
-<div id="dois">
-  - mostra o status com descrições reduzidas
-</div>
-<div id="tres">
-  
-  git status --short<br>
-   M index.html<br>
-  
-</div>
-<div id="quatro">
-  NOTA: Os sinalizadores de status curtos são:<br>
-  <br>
-   ?? - Arquivos não rastreados <br>
-   A - Arquivos adicionados ao stage/palco <br>
-   M - Arquivos modificados <br>
-   D - Arquivos excluídos  <br><br>
-</div>
-<div id="dois">
-  - enviando diretamente, ignorando o envio ao STAGE
-</div>
-<div id="tres">
-  
-  git commit -a -m "Updated index.html with a new line" <br>
-  
-</div>
-<div id="dois">
-  - apresenta histórico de modificações do repositório
-</div>
-<div id="tres">
-  
-  git log <br>
-  
-</div>
-<div id="dois">
-  - associando repositório do github ao git
-</div>
-<div id="tres">
-  
-  git remote add origin https://github.com/user/repo.git <br>
-  
-</div>
-<div id="dois">
-  - subindo os arquivos locais já existentes
-</div>
-<div id="tres">
-  
-  git push --set-upstream origin master <br>
-  
+<body id="corpo">
+  <div id="descricao">
+    Consultar versão
   </div>
+  <div id="comando">
+    git --version<br>
+  </div>
+  <div id="descricao">
+    Configurar GIT
+  </div>
+  <div id="comando">
+    git config --global user.name "wcomandoschools-test" <br>
+    git config --global user.email "test@wcomandoschools.com" <br>
+  </div>
+  <div id="descricao">
+    Iniciar um novo repositório
+  </div>
+  <div id="comando">
+    git init<br>
+  </div>
+  <div id="descricao">
+    Verifica se o arquivo já está no repositório
+  </div>
+  <div id="comando">
+    git status<br>
+  </div>
+  <div id="nota">
+    <br> Nota: <br> <br>
+    TRACKED --> é quando o arquivo está no github<br>
+    UNTRACKED --> é quando o arquivo está apenas localmente no seu dispositivo<br><br>
+  </div>
+  <div id="descricao">
+    Adiciona ao ambiente de testes e preparação (STAGE)
+  </div>
+  <div id="comando">
+    git add <br>
+  </div>
+  <div id="descricao">
+    Adicionando vários arquivos ao ambiente de teste
+  </div>
+  <div id="comando">
+    git add --all ou git add -a <br>
+  </div>
+  <div id="descricao">
+    O commit serve como um save point, ou seja a versão<br>
+    finalmente adicionada ao repositório, o commit deve<br>
+    ser acompanhado de uma mensagem descritiva<br>
+  </div>
+  <div id="comando">
+    git commit -m "First release of Hello World!"<br>
+  </div>
+  <div id="descricao">
+    Mostra o status com descrições reduzidas
+  </div>
+  <div id="comando">
+    git status --short<br>
+    M index.html<br>
+  </div>
+  <div id="nota">
+    NOTA: Os sinalizadores de status curtos são:<br>
+    <br>
+    ?? - Arquivos não rastreados <br>
+    A - Arquivos adicionados ao stage/palco <br>
+    M - Arquivos modificados <br>
+    D - Arquivos excluídos <br><br>
+  </div>
+  <div id="descricao">
+    Enviando diretamente, ignorando o envio ao STAGE
+  </div>
+  <div id="comando">
+    git commit -a -m "Updated index.html with a new line" <br>
+  </div>
+  <div id="descricao">
+    Apresenta histórico de modificações do repositório
+  </div>
+  <div id="comando">
+    git log <br>
+  </div>
+  <div id="descricao">
+    Associando repositório do github ao git
+  </div>
+  <div id="comando">
+    git remote add origin https://github.com/user/repo.git <br>
+  </div>
+  <div id="descricao">
+    Subindo os arquivos locais já existentes
+  </div>
+  <div id="comando">
+    git push --set-upstream origin master <br>
+  </div>
+  <div id="descricao">
+    É possível consultar uma ajuda no própio git com os comandos:
+  </div>
+  <div id="comando">
+    git (comando) -help ou git help --all (este exibirá uma lista muito longa)
+  </div>
+<!--  <div id="descricao">
+
+  </div>
+  <div id="comando">
+
+  </div> -->
 </body>
 </html>

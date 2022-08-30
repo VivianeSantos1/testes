@@ -1,15 +1,15 @@
-#um {
-    background-color: black;
+#corpo {
+    background-color: whitesmoke;
 }
-#dois {
+#descricao {
     color: gray;
-
 }
-#tres {
-    background-color: gray;
-    border-style:groove;
+#comando {
+    background-color: gainsboro;
+    border-style:initial;
+    border-left: 6px solid red;
 }
 
-#quatro {
-    color: red;
+#nota {
+    color:green;
 }
